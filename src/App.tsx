@@ -24,14 +24,14 @@ const App: React.FC = () => {
   const filteredPeople: IPerson[] = people;
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
+    <div >
+      <h1 >
         People Finder Dashboard
       </h1>
-      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+      <div >
         <UpcomingEvents />
         <SearchBar onSearch={handleSearch} />
-        <div className="flex gap-6 mt-6">
+        <div >
           <SearchResults
             results={filteredPeople}
             onSelect={handleSelectPerson}

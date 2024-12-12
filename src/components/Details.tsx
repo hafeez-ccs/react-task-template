@@ -7,9 +7,9 @@ interface PersonDetailsProps {
 
 const Details: React.FC<PersonDetailsProps> = ({ person }) => {
   return (
-    <div className="w-1/2 bg-gray-50 border border-gray-300 rounded-lg shadow-md p-4">
-      <h2 className="text-xl font-semibold mb-4 text-gray-700">Details</h2>
-      <div className="my-4">
+    <div >
+      <h2 >Details</h2>
+      <div >
         <p>
           <strong>Name:</strong> {person.fullName}
         </p>

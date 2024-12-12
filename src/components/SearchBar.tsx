@@ -14,13 +14,13 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   };
 
   return (
-    <div className="mb-4">
+    <div >
       <input
         type="text"
         value={searchInput}
         onChange={handleInputChange}
         placeholder="Search by name or father's name"
-        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+        
       />
     </div>
   );
